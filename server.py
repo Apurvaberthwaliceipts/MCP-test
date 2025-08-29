@@ -15,4 +15,4 @@ def add(a: int, b: int) -> int:
 
 if __name__ == "__main__":
     # Start HTTP server at http://127.0.0.1:8000/mcp
-    mcp.run(transport="http", host="127.0.0.1", port=8005, path="/mcp")
+    mcp.run(transport="http", host="0.0.0.0", port=8005, path="/mcp")
